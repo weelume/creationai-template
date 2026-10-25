@@ -1,0 +1,128 @@
+[
+  {
+    "url": "https://cdn.jiro.build/Creation.AI/Image/Hero%20BG.png",
+    "sha256": "688474c9a35f4f94c6c1a13140a28c1783d4235958adfcaef26cfbd9f167ff0a",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-bg.png"
+  },
+  {
+    "url": "https://cdn.jiro.build/Creation.AI/Logos/Logo.svg",
+    "sha256": "6d441c510025e4b52dc6fbf7865077b2665e6f50f23b1efdaf10e24a86e52a87",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "logo.svg"
+  },
+  {
+    "url": "https://cdn.jiro.build/ZeroDrift/Image/Thum%201.png",
+    "sha256": "e4daf5a1af84e3d134aed7119d4cce6c9d4e4894f937270c2e84114d363440a5",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "thumb-1.png"
+  },
+  {
+    "url": "https://cdn.jiro.build/ZeroDrift/Image/Thum%202.png",
+    "sha256": "723ca9afefd971589b41568b9e884869b468c33fe99811b9d2cdbc808eecd6e9",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "thumb-2.png"
+  },
+  {
+    "url": "https://cdn.jiro.build/ZeroDrift/Image/Thum%203.png",
+    "sha256": "2a9f6b67fd17b6bd0d6419ccdc72fa30e4a5832c710af7254fd03d2833c9e384",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "thumb-3.png"
+  },
+  {
+    "url": "https://cdn.jiro.build/ZeroDrift/Image/Thum%204.png",
+    "sha256": "753f1ea50d3614ef186fe56e628c1ab57fd054bb6aa73f442ea1658ffd440476",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "thumb-4.png"
+  },
+  {
+    "url": "https://cdn.jiro.build/ZeroDrift/Image/Thum%205.png",
+    "sha256": "663fcbb73792f1e17595b3ef37fe25d8213e7f11a993eeca84500d245db344cb",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "thumb-5.png"
+  },
+  {
+    "url": "https://cdn.jiro.build/ZeroDrift/Image/Thum%206.png",
+    "sha256": "e33f5b41d446e60f6c25e1af03ac411ceb826a0e8b6eea0df09425d44e7ebb7f",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "thumb-6.png"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=10",
+    "sha256": "fafb72591ee1dc2c19eb2d0a6aaae8f7d02d864ffa71d5febc38c7999310821e",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-1.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=11",
+    "sha256": "8d79d38af37d1d12b69422524be53b2d4c7e7f8f1056c549bd0da744b6eb00dd",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-2.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=12",
+    "sha256": "e50962d421ec4d8ec666f2356c526240de016c1d3523015aa9281c1ad5dd0c10",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-3.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=13",
+    "sha256": "6bac852d14297ed261a37407670e711ad43725e9f3a0fb2b4abd103222861910",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-4.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=14",
+    "sha256": "b6b0563c20bfd51afbc5a8bc72a40fcb78a16cbd78a84437f3ea3ef631ece99f",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-5.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=15",
+    "sha256": "5fed01dd7cd40f851e346055bf23a399fa24ea17757ed5f2725c59648844a3f4",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-6.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=16",
+    "sha256": "4387b4cb385f3b52a84c7aef0fbd42c6f0a5e50ff4ae3a4124151e92e7c24232",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-7.jpg"
+  },
+  {
+    "url": "https://picsum.photos/200/110?random=17",
+    "sha256": "c6ca199ddb3c0c7fa3aca32523f1f19f4f7fe8cfdc74e7d6eea8f26640205ff0",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "hero-8.jpg"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80",
+    "sha256": "fdeb71ecb07183abb93b981b6fe5e68ca355989e21e74d5789e1c5e4d109f3f8",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "avatar-1.jpg"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
+    "sha256": "6b932801fe8c3c4d985cc92540461e04876aa2b0e14bf8088397baa9ee26635e",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "avatar-2.jpg"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80",
+    "sha256": "8d9d577d9b9a96f8e5da7bca81f4c7fab2b8c1cab4e72bb5129362d6c814f158",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "avatar-3.jpg"
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
+    "sha256": "11f9a61a7e15579f2d914edab0e7a098eec0b5b590b7e392a35af6ac4ce4c3a9",
+    "license": "原站引用，商业再分发权利待核实",
+    "file": "avatar-4.jpg"
+  },
+  {
+    "file": "mark.svg",
+    "source": "logo.svg",
+    "change": "裁取原始 Logo 左侧32×32图形区域",
+    "license": "保留原始Logo权利，商业再分发待核实"
+  }
+]

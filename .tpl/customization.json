@@ -1,0 +1,83 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与宿主注入",
+      "description": "修改独立品牌默认配置或宿主注入接口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/creationai/host.tsx",
+          "kind": "file",
+          "purpose": "品牌默认值与上下文"
+        }
+      ],
+      "constraints": [
+        "宿主适配保持包外，独立工程不保存宿主品牌。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容与页面",
+      "description": "同步维护中文与英文内容、内页和演示提示",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/creationai/data.ts",
+          "kind": "file",
+          "purpose": "双语内容集合"
+        },
+        {
+          "path": "src/features/site-templates/catalog/creationai/InnerPages.tsx",
+          "kind": "file",
+          "purpose": "内页组合"
+        }
+      ],
+      "constraints": [
+        "不得声称本地演示已经调用 AI、发送邮件或生成真实 PSD。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "theme-motion",
+      "title": "主题与动效",
+      "description": "修改视觉令牌、响应式布局与交互组件",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/creationai/theme.css",
+          "kind": "file",
+          "purpose": "主题令牌与样式"
+        },
+        {
+          "path": "src/features/site-templates/catalog/creationai/Sections.tsx",
+          "kind": "file",
+          "purpose": "交互区块"
+        },
+        {
+          "path": "src/features/site-templates/catalog/creationai/CreativeDemo.tsx",
+          "kind": "file",
+          "purpose": "创意演示与轮播"
+        }
+      ],
+      "constraints": [
+        "尊重减少动态效果设置。",
+        "修改后验证受影响端和实际交互。"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build"
+      ]
+    }
+  ]
+}

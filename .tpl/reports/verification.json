@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-25T23:56:48.921Z",
-  "sourceCommit": null,
-  "sourceDigest": "f977f7ade0f01353be35d39a6ffd6ff95609aa4eb50d205e858f3f68982f8bac",
+  "checkedAt": "2026-10-25T23:58:58.733Z",
+  "sourceCommit": "c684c1f4579067fc0fb8c1cb323dcea853227e3e",
+  "sourceDigest": "6adefffb0d8b23a0a47332638a5f07c4f8f15c87f4ff731cbb4b5d955efc35fc",
   "checks": [
     {
       "id": "typecheck",

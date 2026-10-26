@@ -15,3 +15,52 @@
 @media(prefers-reduced-motion:reduce){.ca-root *{animation:none!important;scroll-behavior:auto!important;transition:none!important}.ca-marquee>div{transform:none}.ca-inspiration{transform:none}.ca-root .ca-scan-line{display:none}}
 
 .ca-root h1{text-wrap:balance}.ca-testimonial{position:relative;overflow:hidden}.ca-testimonial .ca-quote-thumb{transition:transform .5s}.ca-testimonial:hover .ca-quote-thumb{transform:scale(1.04)}.ca-recalculate{position:absolute;inset:auto 0 0;height:220px;display:flex;align-items:center;justify-content:center;gap:10px;background:#ffffffc4;backdrop-filter:blur(4px);font-size:10px;color:#333}.ca-recalculate i{display:block;width:18px;height:18px;border:2px solid #00b78233;border-top-color:#00b782;border-radius:50%;animation:ca-spin .7s linear infinite}@keyframes ca-spin{to{transform:rotate(360deg)}}
+
+/* 视口滚动条由 html 绘制；:has 限定当前模板，切页后自动恢复宿主样式。 */
+:is(html, body):has(.ca-root),
+.ca-root {
+  --ca-scrollbar-size: 8px;
+  --ca-scrollbar-inner-size: 6px;
+  --ca-scrollbar-thumb: #658879;
+  --ca-scrollbar-thumb-hover: #00a77c;
+  --ca-scrollbar-track: transparent;
+}
+.ca-light {
+  --ca-scrollbar-thumb: #9aac9f;
+  --ca-scrollbar-thumb-hover: #527c68;
+}
+:is(html, body):has(.ca-root),
+.ca-root :where(:not(.ca-carousel, .ca-tabs)) {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ca-scrollbar-thumb) var(--ca-scrollbar-track);
+}
+/* Chromium/WebKit 使用伪元素提供悬停反馈；其余浏览器保留标准原生样式。 */
+@supports selector(::-webkit-scrollbar) {
+  :is(html, body):has(.ca-root),
+  .ca-root :where(:not(.ca-carousel, .ca-tabs)) { scrollbar-width: auto; scrollbar-color: auto; }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar { width: var(--ca-scrollbar-size); height: var(--ca-scrollbar-size); }
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar { width: var(--ca-scrollbar-inner-size); height: var(--ca-scrollbar-inner-size); }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar-track,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar-track { background: var(--ca-scrollbar-track); }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar-thumb,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar-thumb {
+    background: var(--ca-scrollbar-thumb);
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    min-height: 40px;
+  }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar-thumb:hover,
+  :is(html, body):has(.ca-root)::-webkit-scrollbar-thumb:active,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar-thumb:hover,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar-thumb:active { background-color: var(--ca-scrollbar-thumb-hover); }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar-corner,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar-corner { background: transparent; }
+}
+@media (forced-colors: active) {
+  :is(html, body):has(.ca-root), .ca-root :where(:not(.ca-carousel, .ca-tabs)) { scrollbar-width: auto; scrollbar-color: auto; }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar { width: revert; height: revert; }
+  :is(html, body):has(.ca-root)::-webkit-scrollbar-thumb,
+  .ca-root :where(:not(.ca-carousel, .ca-tabs))::-webkit-scrollbar-thumb { background: revert; border: revert; }
+}
